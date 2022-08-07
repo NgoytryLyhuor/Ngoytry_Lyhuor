@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x.icon" href="./img/cherry.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500&family=Hanuman&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;1,500;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./loginform.css">
+    <title>Log in</title>
+</head>
+<body>
+    <div class="rainbow-letters">
+        <div class="exit" onclick="back()"><i class="fa fa-close" style="font-size:23px"></i></div>
+        <div class="logo">
+            <p><span>F</span><span>O</span><span>O</span><span>D</span><span>S</span> <span>A</span><span>N</span><span>D</span> <span>D</span><span>R</span><span>I</span><span>N</span><span>K</span><span>S</span></p>
+        </div>
+        <div class="sign">
+            <p>Sign in</p>
+        </div>
+        <div class="google_ac">
+            <P>Use your Google Account</P>
+        </div>
+        <div class="acc">
+            <input type="text" placeholder="Username" id="user" >
+            <p>Forget email?</p>
+            <input type="password" placeholder="Password" id="password">
+            <p>Forget Password?</p>
+            <button type="submit" onclick="login()">Confirm</button>
+        </div>
+        <div class="buttom">
+            <p>By signing up, you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy.</span></p>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./loginform.js"></script>
